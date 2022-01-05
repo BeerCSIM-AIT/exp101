@@ -6,8 +6,8 @@ const cors = require('cors');
 const app = express();
 const port = 4000;
 
-const appRoute = require("../routes/appRoute");
-const adminRoute = require("../routes/adminRoute");
+const appRoute = require("./routes/appRoute");
+const adminRoute = require("./routes/adminRoute");
 
 
 app.use(cors());
